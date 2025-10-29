@@ -1,5 +1,5 @@
 
-✋ Hand Sign Detection using Deep Learning
+✋ **Hand Sign Detection using Deep Learning**
 
 Welcome to HandSignDetection, a deep-learning based project designed to recognize hand gestures from live camera feed.
 This system can be used for sign language recognition, gesture-based interaction, and accessibility tools.
@@ -20,19 +20,7 @@ main.ipynb → Run prediction using webcam
 
 ✅ .h5 trained model + .npy labels included
 
-✅ Simple + beginner friendly deep learning pipeline
-
-📁 Project Structure
-HandSignDetection/
-│── dataset/dataset/          # Training dataset (images)
-│── .ipynb_checkpoints/       # Jupyter notebook checkpoints
-│── hand_sign_model_limited.h5  # Trained model file
-│── labels_limited.npy        # Label mapping file
-│── trainer.ipynb             # Model training notebook
-│── main.ipynb                # Testing / Prediction notebook
-│── README.md                 # Documentation
-
-🧠 Model Overview
+🧠 **Model Overview**
 Component	Description
 Model Type	Convolutional Neural Network (CNN)
 Framework	TensorFlow / Keras
@@ -43,62 +31,16 @@ Training	Limited dataset for prototype stage
 The project currently supports limited signs due to early development.
 You can expand the dataset to cover full A-Z & functional signs (space, delete, etc.)
 
-📦 Installation
+📦 **Installation**
 1️⃣ Clone the repo
-git clone https://github.com/YOUR_GITHUB_USERNAME/HandSignDetection.git
+git clone https://github.com/TheShr/HandSignDetection.git
 cd HandSignDetection
 
 2️⃣ Install dependencies
 pip install tensorflow opencv-python numpy matplotlib
 
-🏋️‍♂️ Training the Model
 
-Open trainer.ipynb and run all cells.
-
-It:
-
-Loads dataset from dataset/
-
-Preprocesses images
-
-Trains CNN model
-
-Saves:
-
-hand_sign_model_limited.h5
-
-labels_limited.npy
-
-🎥 Running Live Prediction
-
-Open main.ipynb and run the notebook.
-
-It will:
-
-Load trained model
-
-Access webcam
-
-Detect hand signs in real-time
-
-Print predicted class label
-
-📊 Dataset Details
-
-Folder structure for dataset:
-
-dataset/
- └── dataset/
-     ├── A/
-     ├── B/
-     ├── C/
-     ├── ...
-     └── nothing/
-
-
-Tip: For best accuracy, keep images clean, centered, and consistent.
-
-✨ Future Improvements
+✨ **Future Improvements**
 
 Expand dataset to full sign language set
 
@@ -132,3 +74,4 @@ Anuj Sharma
 B.Tech CSE, Bennett University
 
 ⭐ Support
+
