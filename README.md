@@ -31,7 +31,7 @@ Training	Limited dataset for prototype stage
 The project currently supports limited signs due to early development.
 You can expand the dataset to cover full A-Z & functional signs (space, delete, etc.)
 
-📦 **Installation**
+📦 <br>**Installation**</br>
 1️⃣ Clone the repo
 git clone https://github.com/TheShr/HandSignDetection.git
 cd HandSignDetection
@@ -74,4 +74,5 @@ Anuj Sharma
 B.Tech CSE, Bennett University
 
 ⭐ Support
+
 
